@@ -25,6 +25,12 @@ nav ul li {
     margin: 0 10px;
 }
 
+main {
+    background-color: #817FDD;
+    text-align: center;
+}
+
+
 body{
     background-color: #F6F6F6;
 }
@@ -128,6 +134,12 @@ footer{
     margin: 10px;
 }
 
+.SpotifyWidget {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
 
 @media (max-width:450px){
     .iconos {
@@ -149,7 +161,16 @@ footer{
     align-items: center;
     margin: 10px;
 }
+
+.SpotifyWidget {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    width: 100%
 }
+}
+
 .btn {
     background-color: #121E46;
     color: #F6F6F6;
@@ -159,5 +180,4 @@ footer{
 .card {
     display: flex;
     flex-direction: row;
-    
 }
