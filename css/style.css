@@ -2,10 +2,6 @@
     margin: 0;
     padding: 0;
     }
-<<<<<<< HEAD
-
-=======
->>>>>>> main
 header {
     background-color: #121E46;
     display: flex;
@@ -178,11 +174,7 @@ footer{
     padding-bottom: 30px;
 }
 
-<<<<<<< HEAD
 @media (max-width:750px){
-=======
-@media (max-width:450px){
->>>>>>> main
     .iconos {
     background-color: #F6F6F6;
     display: flex;
@@ -210,7 +202,6 @@ footer{
     padding-bottom: 30px;
     width: 100%
 }
-<<<<<<< HEAD
 
 .card-recomendaciones {
     display: flex;
@@ -218,8 +209,6 @@ footer{
     justify-content: center;
     align-items: center;
 }
-=======
->>>>>>> main
 }
 
 .btn {
@@ -228,7 +217,6 @@ footer{
     font-family: "Poppins", sans-serif;
 }
 
-<<<<<<< HEAD
 .card-recomendaciones {
     display: flex;
     flex-direction: row;
@@ -236,9 +224,3 @@ footer{
     align-items: center;
 }
 
-=======
-.card {
-    display: flex;
-    flex-direction: row;
-}
->>>>>>> main
