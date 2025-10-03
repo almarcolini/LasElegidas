@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+
+header {
+    background-color: #121E46;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    margin: 20px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+.Boton {
+    background-color: #817FDD;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 50px;
+    font-family: "Poppins", sans-serif;
+    color:#121E46
+}
+
+main {
+    background-color: #817FDD;
+    text-align: center;
+    padding: 20px;
+}
+
+
+body{
+    background-color: #F6F6F6;
+
+}
+
+.BannerIndex {
+    background-color: #121E46;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+
+.BannerIndex h2{
+    font-size: 50px;
+}
+
+.TextoBanner{
+    display: flex;
+    flex-direction: column;
+    margin: 20px
+}
+
+body h2{
+    color:white;
+    font-family: "Poppins", sans-serif;
+    margin: 10px;
+    font-size: larger;
+}
+
+body h3{
+    color:rgb(209, 205, 205);
+    font-family: "Poppins", sans-serif;
+    margin: 10px
+}
+
+body p{
+    color:rgb(209, 205, 205);
+    font-family: "Poppins", sans-serif;
+    margin: 10px
+}
+
+.FormularioContacto {
+    background-color: #121E46;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.SuscripcionContacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+}
+
+.iconos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.imagen-icono {
+    width: 30%;
+    padding: 30px;
+    border: 6px #817FDD;
+    margin: 10px;
+}
+
+.PortadaIcono {
+    width: 200%;
+}
+
+.EntradaBlog {
+    background-color: #D9D9D9;
+}
+
+.TituloBlog {
+    color: black;
+}
+
+.TextoBlog {
+    color: black;
+}
+
+a{
+    color:rgb(209, 205, 205);
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.Suscribe {
+    background-color: #121E46;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+footer{
+    background-color: #121E46;
+    color:rgb(209, 205, 205);
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+.RedesIconos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.RedesIconos img {
+    margin: 10px;
+}
+
+.FooterIconos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.SpotifyWidget {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+@media (max-width:450px){
+    .iconos {
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen-icono {
+    width: 40%;
+    padding: 10%;
+}
+
+.FooterIconos {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.SpotifyWidget {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    width: 100%
+}
+}
+
+.btn {
+    background-color: #121E46;
+    color: #F6F6F6;
+    font-family: "Poppins", sans-serif;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+}
