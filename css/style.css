@@ -84,6 +84,20 @@ body p{
     margin: 10px
 }
 
+.FormularioContacto {
+    background-color: #121E46;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.SuscripcionContacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+}
+
 .iconos {
     display: flex;
     flex-direction: row;
