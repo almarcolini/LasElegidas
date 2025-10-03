@@ -175,7 +175,7 @@ footer{
     padding-bottom: 30px;
 }
 
-@media (max-width:450px){
+@media (max-width:750px){
     .iconos {
     background-color: #F6F6F6;
     display: flex;
@@ -203,6 +203,13 @@ footer{
     padding-bottom: 30px;
     width: 100%
 }
+
+.card-recomendaciones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 }
 
 .btn {
@@ -211,7 +218,10 @@ footer{
     font-family: "Poppins", sans-serif;
 }
 
-.card {
+.card-recomendaciones {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
