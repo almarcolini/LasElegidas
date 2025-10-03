@@ -31,15 +31,23 @@
             <p>¿Querés que hablemos de algún tema en especial? ¿Querés dejarnos tu comentario? ¡Podés hacerlo!</p>
         </section>
         <section>
+            <section class="FormularioContacto">         
             <form action="">
-                <label for="nombre">Nombre</label>
-                <input type="text" name="" id="nombre">
-                <label for="email">Email</label>
-                <input type="email" name="" id="email">
-                <label for="text">Mensaje</label>
-                <textarea name="" id="text"></textarea>
-                <input type="submit" value="Enviar">
+                <div class="form-floating mb-3"> 
+                  <input type="text" class="form-control" id="floatingInput" placeholder="Name"> 
+                  <label for="floatingInput">Nombre</label>
+            </div>
+            <div class="form-floating mb-3"> 
+                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"> 
+                  <label for="floatingInput">Email</label>
+            </div>
+            <div class="form-floating">
+                  <textarea class="form-control" placeholder="Deja tu mensaje" id="floatingTextarea"></textarea>  <label for="floatingTextarea">Mensaje</label>
+                </div>
+                <input class="Boton" type="submit" value="Enviar">         
+                
             </form>
+        </section>
         </section>
         <section>
             <h2>Suscribite a nuestro newsletter</h2>
@@ -49,12 +57,16 @@
             </form>
         </section>
     </main>
-    <footer>
-        <h4>Las Elegidas</h4>
-        <img src="../assets/icon/instagram.png" alt="icono de la aplicacion instagram" width="20" height="20">
-        <img src="../assets/icon/tik-tok.png" alt="icono de la aplicacion tiktok" width="20" height="20">
-        <img src="../assets/icon/spotify.png" alt="icono de la aplicacion spotify" width="20" height="20">
-        <p>Texto copyright</p>
+     <footer>
+        <div class="FooterIconos">
+        <img src="../assets/images/Recurso 2.png"  width="70">
+        <p>© 2025 LAS ELEGIDAS. TODOS LOS DERECHOS RESERVADOS.</p>
+                <div class="RedesIconos">
+                    <img src="../assets/icon/instagram.png" alt="icono de la aplicacion instagram" width="20" height="20">
+                    <img src="../assets/icon/tik-tok.png" alt="icono de la aplicacion tiktok" width="20" height="20">
+                    <img src="../assets/icon/spotify.png" alt="icono de la aplicacion spotify" width="20" height="20">
+                </div>
+        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
